@@ -22,7 +22,8 @@ public class MyFirstTest {
 
     @Test
     public void myFirstTest() throws InterruptedException {
-        driver.get("http://www.mail.ru/");
+        driver.get("http://www.yandex.ru/");
+
     }
 
     @After

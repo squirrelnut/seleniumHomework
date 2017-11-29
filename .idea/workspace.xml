@@ -40,8 +40,8 @@
       <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -644,9 +644,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest - 2017.11.29 at 14h 16m 50s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyFirstTest - 2017.11.29 at 14h 22m 50s.xml">
       <configuration name="MyFirstTest" configurationId="JUnit" />
     </history-entry>
@@ -672,6 +669,9 @@
       <configuration name="MyFirstTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MyFirstTest - 2017.11.29 at 14h 45m 41s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest - 2017.11.29 at 14h 48m 28s.xml">
       <configuration name="MyFirstTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -741,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

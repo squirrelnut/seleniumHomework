@@ -27,19 +27,18 @@ public class LiteAdminTest {
        // driver = new ChromeDriver();
 
         //Вызов Firefix по старой схеме:
-//        FirefoxOptions options = new FirefoxOptions()
-//                .setBinary("C:\\Program Files\\Mozilla Firefox ESR45\\firefox.exe")
-//                .setLegacy(true);
-//        driver = new FirefoxDriver(options);
+        FirefoxOptions options = new FirefoxOptions()
+                .setBinary("C:\\Program Files\\Mozilla Firefox ESR\\firefox.exe")
+                .setLegacy(true);
+        driver = new FirefoxDriver(options);
 
 
 
        // Вызов Firefox Nightly по новой схеме:
-        driver = new FirefoxDriver();
-        FirefoxOptions options = new FirefoxOptions()
-                .setBinary("C:\\Program Files\\Nightly\\firefox.exe")
-                .setLegacy(false);
-        driver = new FirefoxDriver(options);
+//        FirefoxOptions options = new FirefoxOptions()
+//                .setBinary("C:\\Program Files\\Nightly\\firefox.exe")
+//                .setLegacy(false);
+//        driver = new FirefoxDriver(options);
 
 
         System.out.println(((HasCapabilities) driver).getCapabilities()); // Печать в консоль настроек.

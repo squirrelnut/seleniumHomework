@@ -53,7 +53,7 @@ public class LitecartNewUserAccount extends TestBase {
     public void fillSelect(String locator, String selectedItem){
         WebElement selectElement = driver.findElement(By.cssSelector(locator));
         Select select = new Select(selectElement);
-        List options = select.getOptions();
+        //List options = select.getOptions();
         select.selectByVisibleText(selectedItem);
     }
 

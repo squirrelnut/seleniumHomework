@@ -43,45 +43,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LitecartCountriesTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartCountriesTest.java">
+      <file leaf-file-name="LitecartNewUserAccount.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartNewUserAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-              <folding>
-                <element signature="method#saveCountryLinkWhichHasZones#0;class#LitecartCountriesTest#0" expanded="false" />
-                <element signature="method#zoneCheck#0;class#LitecartCountriesTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LitecartStoreProductCheck.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartStoreProductCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#ProductData#0;class#LitecartStoreProductCheck#0" expanded="false" />
-                <element signature="method#getRGB#0;class#LitecartStoreProductCheck#0" expanded="false" />
-                <element signature="method#getTextSize#0;class#LitecartStoreProductCheck#0" expanded="false" />
-                <element signature="method#makeProductFormCurrentPage#0;class#LitecartStoreProductCheck#0" expanded="false" />
-                <element signature="method#printProductData#0;class#LitecartStoreProductCheck#0" expanded="false" />
-                <element signature="method#compareProductData#0;class#LitecartStoreProductCheck#0" expanded="false" />
-                <element signature="method#compareStringData#0;class#LitecartStoreProductCheck#0" expanded="false" />
-                <element signature="method#compareBooleanData#0;class#LitecartStoreProductCheck#0" expanded="false" />
-                <marker date="1513105777110" expanded="true" signature="6183:6718" ph="..." />
+                <element signature="method#fillSelect#0;class#LitecartNewUserAccount#0" expanded="false" />
+                <element signature="method#generateUniqueNumber#0;class#LitecartNewUserAccount#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -715,14 +685,15 @@
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartMenuLinksTest.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartStoreProductCheck.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/TestBase.java" />
+        <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartNewUserAccount.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="518" />
-    <option name="y" value="34" />
-    <option name="width" value="1026" />
-    <option name="height" value="475" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="137" />
+    <option name="y" value="46" />
+    <option name="width" value="1117" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -820,32 +791,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LitecartStoreProductCheck">
-    <configuration name="LitecartCountriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="java-example_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.LitecartCountriesTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.LitecartNewUserAccount.testLitecartNewUserAccount">
     <configuration name="LitecartCountriesTest.myFirstTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -909,6 +855,31 @@
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.LitecartMenuLinksTest" />
       <option name="METHOD_NAME" value="testLitecartMenuLinks" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LitecartNewUserAccount.testLitecartNewUserAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.LitecartNewUserAccount" />
+      <option name="METHOD_NAME" value="testLitecartNewUserAccount" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1054,19 +1025,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.LitecartCountriesTest.myFirstTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LitecartCountriesTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LitecartStoreProductCheck.testLitecartStoreProductCheck" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LitecartStoreProductCheck" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LitecartMenuLinksTest.testLitecartMenuLinks" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.LitecartMenuLinksTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LitecartStoreProductCheck.testLitecartStoreProductCheck" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LitecartStoreProductCheck" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LitecartMenuLinksTest.testLitecartMenuLinks" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LitecartMenuLinksTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.LitecartNewUserAccount.testLitecartNewUserAccount" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LitecartStoreProductCheck" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LitecartStoreProductCheck.testLitecartStoreProductCheck" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LitecartMenuLinksTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LitecartMenuLinksTest.testLitecartMenuLinks" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LitecartCountriesTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LitecartNewUserAccount.testLitecartNewUserAccount" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LitecartStoreProductCheck" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LitecartStoreProductCheck.testLitecartStoreProductCheck" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LitecartMenuLinksTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LitecartMenuLinksTest.testLitecartMenuLinks" />
       </list>
     </recent_temporary>
   </component>
@@ -1087,14 +1058,29 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LitecartStoreProductCheck - 2017.12.12 at 21h 57m 33s.xml">
-      <configuration name="LitecartStoreProductCheck" configurationId="JUnit" />
+    <history-entry file="LitecartNewUserAccount_testLitecartNewUserAccount - 2017.12.14 at 03h 02m 33s.xml">
+      <configuration name="LitecartNewUserAccount.testLitecartNewUserAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartStoreProductCheck - 2017.12.12 at 21h 59m 58s.xml">
-      <configuration name="LitecartStoreProductCheck" configurationId="JUnit" />
+    <history-entry file="LitecartNewUserAccount_testLitecartNewUserAccount - 2017.12.14 at 03h 18m 38s.xml">
+      <configuration name="LitecartNewUserAccount.testLitecartNewUserAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartStoreProductCheck - 2017.12.12 at 22h 03m 29s.xml">
-      <configuration name="LitecartStoreProductCheck" configurationId="JUnit" />
+    <history-entry file="LitecartNewUserAccount_testLitecartNewUserAccount - 2017.12.14 at 03h 19m 33s.xml">
+      <configuration name="LitecartNewUserAccount.testLitecartNewUserAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LitecartNewUserAccount_testLitecartNewUserAccount - 2017.12.14 at 03h 23m 32s.xml">
+      <configuration name="LitecartNewUserAccount.testLitecartNewUserAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LitecartNewUserAccount_testLitecartNewUserAccount - 2017.12.14 at 03h 24m 40s.xml">
+      <configuration name="LitecartNewUserAccount.testLitecartNewUserAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LitecartNewUserAccount_testLitecartNewUserAccount - 2017.12.14 at 19h 47m 18s.xml">
+      <configuration name="LitecartNewUserAccount.testLitecartNewUserAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LitecartNewUserAccount_testLitecartNewUserAccount - 2017.12.14 at 19h 59m 31s.xml">
+      <configuration name="LitecartNewUserAccount.testLitecartNewUserAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LitecartNewUserAccount_testLitecartNewUserAccount - 2017.12.14 at 20h 01m 22s.xml">
+      <configuration name="LitecartNewUserAccount.testLitecartNewUserAccount" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LitecartStoreProductCheck - 2017.12.12 at 22h 11m 22s.xml">
       <configuration name="LitecartStoreProductCheck" configurationId="JUnit" />
@@ -1102,24 +1088,9 @@
     <history-entry file="LitecartStoreProductCheck - 2017.12.12 at 22h 17m 04s.xml">
       <configuration name="LitecartStoreProductCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LitecartStoreProductCheck_testLitecartStoreProductCheck - 2017.12.12 at 21h 20m 43s.xml">
-      <configuration name="LitecartStoreProductCheck.testLitecartStoreProductCheck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LitecartStoreProductCheck_testLitecartStoreProductCheck - 2017.12.12 at 21h 22m 00s.xml">
-      <configuration name="LitecartStoreProductCheck.testLitecartStoreProductCheck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LitecartStoreProductCheck_testLitecartStoreProductCheck - 2017.12.12 at 21h 24m 23s.xml">
-      <configuration name="LitecartStoreProductCheck.testLitecartStoreProductCheck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LitecartStoreProductCheck_testLitecartStoreProductCheck - 2017.12.12 at 21h 51m 42s.xml">
-      <configuration name="LitecartStoreProductCheck.testLitecartStoreProductCheck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LitecartStoreProductCheck_testLitecartStoreProductCheck - 2017.12.12 at 22h 04m 10s.xml">
-      <configuration name="LitecartStoreProductCheck.testLitecartStoreProductCheck" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1384" height="688" extended-state="7" />
+    <frame x="-9" y="-9" width="1384" height="688" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1130,12 +1101,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8229927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.649635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28843337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18228404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1362,19 +1333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LiteAdminTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#start#0;class#LiteAdminTest#0" expanded="false" />
-            <element signature="method#myFirstTest#0;class#LiteAdminTest#0" expanded="false" />
-            <element signature="method#stop#0;class#LiteAdminTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1413,12 +1371,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartMenuLinksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="63" column="55" lean-forward="false" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
+        <state relative-caret-position="163">
+          <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="69" />
           <folding>
             <element signature="method#start#0;class#LitecartMenuLinksTest#0" expanded="false" />
-            <element signature="method#testLitecartMenuLinks#0;class#LitecartMenuLinksTest#0" expanded="false" />
-            <element signature="method#getAttributeFromArray#0;class#LitecartMenuLinksTest#0" expanded="false" />
             <element signature="method#checkPages#0;class#LitecartMenuLinksTest#0" expanded="false" />
             <element signature="method#checkH1#0;class#LitecartMenuLinksTest#0" expanded="false" />
             <element signature="method#stop#0;class#LitecartMenuLinksTest#0" expanded="false" />
@@ -1426,29 +1382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartCountriesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-          <folding>
-            <element signature="method#saveCountryLinkWhichHasZones#0;class#LitecartCountriesTest#0" expanded="false" />
-            <element signature="method#zoneCheck#0;class#LitecartCountriesTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartStoreProductCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#ProductData#0;class#LitecartStoreProductCheck#0" expanded="false" />
@@ -1460,6 +1397,48 @@
             <element signature="method#compareStringData#0;class#LitecartStoreProductCheck#0" expanded="false" />
             <element signature="method#compareBooleanData#0;class#LitecartStoreProductCheck#0" expanded="false" />
             <marker date="1513105777110" expanded="true" signature="6183:6718" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LiteAdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="53" />
+          <folding>
+            <element signature="method#start#0;class#LiteAdminTest#0" expanded="false" />
+            <element signature="method#stop#0;class#LiteAdminTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartCountriesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="method#saveCountryLinkWhichHasZones#0;class#LitecartCountriesTest#0" expanded="false" />
+            <element signature="method#zoneCheck#0;class#LitecartCountriesTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium/LitecartNewUserAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#fillSelect#0;class#LitecartNewUserAccount#0" expanded="false" />
+            <element signature="method#generateUniqueNumber#0;class#LitecartNewUserAccount#0" expanded="false" />
           </folding>
         </state>
       </provider>

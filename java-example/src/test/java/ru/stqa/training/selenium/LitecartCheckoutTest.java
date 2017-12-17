@@ -10,11 +10,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import static org.openqa.selenium.support.ui.ExpectedConditions.stalenessOf;
+import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
+
 public class LitecartCheckoutTest extends TestBase {
     @Test
     public void testLitecartCheckout() {
-        // добавляем 3 товара в корзину
-        addProductsToCart(3);
+        // добавляем товары в корзину
+        addProductsToCart(5);
 
         // открываем корзину
         driver.findElement(By.linkText("Checkout »")).click();
@@ -63,7 +66,8 @@ public class LitecartCheckoutTest extends TestBase {
     public boolean isElementPresent(String locator) {
         try {
             driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-            return driver.findElements(By.cssSelector(locator)).size() > 0;
+            boolean result = driver.findElements(By.cssSelector(locator)).size() > 0;
+            return result;
         } finally {
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         }
@@ -81,21 +85,26 @@ public class LitecartCheckoutTest extends TestBase {
     public void removeProductAndCheckTotal() {
         // получаем все продукты из итоговой таблицы
         List<WebElement> product = driver.findElements(By.cssSelector("td.item"));
+        System.out.println("Всего товаров в корзине " + product.size());
 
         for (int i = 0; i < product.size(); i++) {
-            // удаляем товар
-            driver.findElement(By.cssSelector("button[name='remove_cart_item']")).click();
+            System.out.println("Удаляем " + (i + 1) + " товар");
+            // Ждем появление кнопки Remove
+            WebElement button = wait.until(visibilityOfElementLocated(By.name("remove_cart_item")));
+            button.click(); // нажимаем на кнопку
+            wait.until(stalenessOf(button)); // ждем исчезновение кнопки
 
-            if (i + 1 == product.size()) { // если удалили последний товар в корзине
+            if (i + 1 == product.size()) { // если удалили последний товар
                 // то ожидаем финальное сообщение
-                (new WebDriverWait(driver, 20)).until(ExpectedConditions
+                (new WebDriverWait(driver, 5)).until(ExpectedConditions
                         .textToBePresentInElement(By.cssSelector("div#checkout-cart-wrapper p"),
                                 "There are no items in your cart."));
+                System.out.println("Корзина пуста. Финальное сообщение отобразилось.");
 
-            } else { // если удалили непоследний товар (в корзине есть др. товары)
+            } else { // если удалили непоследний товар (в корзине есть еще товары)
                 // то ожидаем, пока удаленный товар исчезнет в итоговой таблицы
-                (new WebDriverWait(driver, 10)).until(ExpectedConditions
-                        .stalenessOf(product.get(i)));
+                wait.until(stalenessOf(product.get(i)));
+                System.out.println("Товар " + (i + 1) + " отсутствует в корзине.");
             }
         }
 

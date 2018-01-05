@@ -12,8 +12,4 @@ public class Page {
         this.driver = driver;
         wait = new WebDriverWait(driver, 10);
     }
-
-    public void clickLink(By locator){
-        driver.findElement(locator).click();
-    }
 }

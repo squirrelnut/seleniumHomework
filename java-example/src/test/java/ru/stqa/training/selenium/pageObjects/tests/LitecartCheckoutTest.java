@@ -1,7 +1,6 @@
 package ru.stqa.training.selenium.pageObjects.tests;
 
 import org.junit.Test;
-import org.openqa.selenium.By;
 
 public class LitecartCheckoutTest extends TestBase {
     @Test
@@ -10,7 +9,7 @@ public class LitecartCheckoutTest extends TestBase {
         addProductsToCart(3);
 
         // открываем корзину
-        app.getProductPage().clickLink(By.linkText("Checkout »"));
+        app.getProductPage().openCart();
 
         // удаляем товары из корзины и проверяем итоговую таблицу
         app.getCartPage().removeProductAndCheckTotal();

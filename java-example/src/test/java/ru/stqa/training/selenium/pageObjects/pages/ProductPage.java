@@ -61,4 +61,8 @@ public class ProductPage extends Page {
         return Integer.parseInt(text);
     }
 
+    public void openCart(){
+        driver.findElement(By.cssSelector("div#cart a.link")).click();
+    }
+
 }
